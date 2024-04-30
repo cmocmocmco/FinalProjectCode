@@ -102,7 +102,7 @@ void correct() {
 }
 
 void incorrect() {
-  // If button press does not correspond to sequence, red light flashes and game resets
+  // If button press does not accurately correspond to sequence, red light flashes and game resets
   buttonPressed = false;
   digitalWrite(incorrectPin, HIGH);
   delay(1000);
