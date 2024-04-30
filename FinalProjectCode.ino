@@ -113,7 +113,7 @@ void incorrect() {
 
 void nextLevel() {
   buttonPressed = false;
-  userPosition = 0; // Reset user's position to 0
+  userPosition = 0; // Reset the user's position to 0
   currentLevel++; // Advance level
   currentPosition = 0; // Reset the current position of sequence to 0
   playSequence();
@@ -126,7 +126,7 @@ void resetGame() {
   currentLevel = 0;
   currentPosition = 0;
   randomSequence(); // Reset sequence
-  playSequence();
+  playSequence(); 
 }
 
 void randomSequence() {
