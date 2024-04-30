@@ -125,7 +125,7 @@ void resetGame() {
   userPosition = 0;
   currentLevel = 0;
   currentPosition = 0;
-  randomSequence();
+  randomSequence(); // Reset sequence
   playSequence();
 }
 
